@@ -1,10 +1,18 @@
-# rock-papers-scissors-project
+# Rock Paper Scissors Project
+
+## From The Odin Project's [curriculum](https://www.theodinproject.com/lessons/rock-paper-scissors)
+
+The purpose of this project was to create a simple rock paper scissors game. 
+
+<p align="center">View site <a target="_blank" href="https://htmlpreview.github.io/?https://github.com/imthatalex/google-homepage/blob/master/index.html">Here</a></p>
 
 
-### This Project was requested by The Odin Project, it is a simple Rock, Paper, Scissors Game. 
 
-### Link to Assignment : https://www.theodinproject.com/courses/foundations/lessons/rock-paper-scissors
 
-## Enjoy!
 
-### 
+
+
+
+
+
+

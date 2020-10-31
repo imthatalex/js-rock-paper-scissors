@@ -2,8 +2,6 @@ let playerScore = 0;
 let computerScore = 0;
 let userInput;
 
-
-
 function userInputRock() {
     userInput = "rock";
     console.log(game());
@@ -18,7 +16,6 @@ function userInputScissor() {
     userInput = "scissor";
     console.log(game());
 }
-
 
 function playRound(playerSelection, computerSelection) {
     playerSelection = playerSelection.toLowerCase();
@@ -62,14 +59,11 @@ function playRound(playerSelection, computerSelection) {
     )
 }
 
-
 function computerPlay() {
     let rps = ["Rock", "Paper", "Scissor"];
     let randomRps = Math.floor(Math.random() * rps.length);
     return rps[randomRps].toLowerCase();
 }
-
-
 
 function game() {
     let result;

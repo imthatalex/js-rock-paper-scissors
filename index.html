@@ -3,9 +3,48 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="CSS/default.css">
+        <link rel="stylesheet" type="text/css" href="CSS/main.css">
         <script src="JS/main.js"></script>
+        <title>Rock..Paper..Scissors!</title>
     </head>
     <body>
-        <button onclick="game()">Play</button>
+        <section>
+            <div class="createContainer">
+                <h1>Play Rock..Paper..Scissors!</h1>
+                <p>Select one of the choices below to play against the computer!</p>
+            </div>
+
+            <div id="demo" class="createContainer">
+                <button id="rock" onclick="userInputRock()" class="rpsButton"><img
+                        src="Assets/icons8-rock-100.png"></button>
+                <button id="paper" onclick="userInputPaper()" class="rpsButton"><img
+                        src="Assets/icons8-toilet-paper-100.png"></button>
+                <button id="scissor" onclick="userInputScissor()"
+                    class="rpsButton"><img
+                        src="Assets/icons8-barber-scissors-100.png"></button>
+            </div>
+        </section>
+        <section>
+            <div class="createUserOutputContainer">
+                <p id="userRoundOutputText"></p>
+            </div>
+        </section>
+        <section>
+            <div class="createFlexContainer">
+                <div class="createUserOutputContainer">
+                    <h2>P1 Score</h2>
+                    <h2 id="playerScore"></h2>
+                </div>
+                <div class="createUserOutputContainer">
+                    <h2>CPU Score</h2>
+                    <h2 id="computerScore"></h2>
+                </div>
+            </div>
+            <div class="createFlexContainer"><button id="resetButton"
+                    onclick="resetGame()">Play Again?</button>
+            </div>
+        </section>
+        <script src="JS/initializeScore.js"></script>
     </body>
 </html>

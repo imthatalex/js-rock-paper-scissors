@@ -1,0 +1,108 @@
+/* html, body, * ...*/
+
+body {
+    background-color: skyblue;
+}
+
+/* IDs */
+
+#resetButton {
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    background-color: #fff;
+    color: #000;
+    font-size: 1rem;
+    margin: auto;
+    display: none;
+}
+
+#resetButton:hover {
+    cursor: pointer;
+    border: 2px solid blue;
+}
+
+#userRoundOutputText {
+    transition-delay: 2s;
+}
+
+/* Classes */
+
+section:first-child {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    margin: auto;
+    display: grid;
+    place-content: center;
+}
+
+.createContainer:first-child {
+    color: #fff;
+    text-align: center;
+    margin: auto;
+}
+
+.createContainer:first-child h1 {
+    padding: 20px 0px;
+    font-weight: 500;
+    font-size: 4rem;
+    letter-spacing: 3px;
+}
+
+.createContainer:first-child p {
+    font-size: 1rem;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.createContainer:last-child {
+    margin: 50px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.rpsButton {
+    border-radius: 100%;
+    padding: 25px 0px;
+    margin: 10px 40px;
+    border: 3px solid #fff;
+    background-color: orange;
+    color: #fff;
+}
+
+.rpsButton:hover {
+    background-color: darkorange;
+    cursor: pointer;
+    border: 3px solid blue;
+}
+
+.rpsButton img {
+    width: 50%;
+}
+
+.createFlexContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+}
+
+.createUserOutputContainer {
+    margin: auto;
+    color: #fff;
+    text-align: center;
+}
+
+.createUserOutputContainer {
+    font-size: 2rem;
+}
+
+.createUserOutputContainer h2 {
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 20px;
+}
+.createUserOutputContainer h2:last-child {
+    font-size: 3rem;
+}

@@ -1,7 +1,7 @@
 # A Rock, Paper, Scissors Game
 
 
-<p>View <a target="_blank" href="https://gifted-cori-d992cd.netlify.app/">Here</a></p>
+<p>View <a target="_blank" href="https://imthatalex-rock-paper-scissors.netlify.app/">Here</a></p>
 
 
 
